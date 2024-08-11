@@ -6,6 +6,7 @@ This project is based on the Social Force Model developed by Dirk Helbing and PÃ
 
 This project was recognized by the University Head of Department at the University of Edinburgh and earned me the *IMechE Best Project Award 2018*, a distinguished honor awarded once per university per year.
 
+
 ## Features
 - **Social Force Model:** Implementation based on the model proposed by Helbing and Molnar.
 - **Boarding Simulation:** Simulates the boarding process for an Airbus A320, generating boarding times and a newly-defined parameter, Time-To-Seat (TTS).
@@ -22,6 +23,9 @@ The project includes simulations of various boarding methods. You can watch the 
 - Random Method: https://youtu.be/gaFlylw3Hj0
 - Block Method: https://youtu.be/jfdJho9hRuM
 - RP3 Method: https://youtu.be/jM6nAA711D4
+
+> [!NOTE]
+> RP3 is over 20% better than boarding in blocks, where passengers board by sections from the back to the front (e.g., rows 30-40, then 20-29, and so on)
 
 ## Known Issues
 - **Extensive Hard-Coding:** The code contains numerous hard-coded values, making it less flexible and harder to modify. Future iterations could benefit from parameterizing these values for greater adaptability and implementing OOP principles.
