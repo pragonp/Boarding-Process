@@ -24,7 +24,7 @@ The project includes simulations of various boarding methods. You can watch the 
 - RP3 Method: https://youtu.be/jM6nAA711D4
 
 ## Known Issues
-- **Extensive Hard-Coding:** The code contains numerous hard-coded values, making it less flexible and harder to modify. Future iterations could benefit from parameterizing these values for greater adaptability.
+- **Extensive Hard-Coding:** The code contains numerous hard-coded values, making it less flexible and harder to modify. Future iterations could benefit from parameterizing these values for greater adaptability and implementing OOP principles.
   ```
   if sex(i) == 1 && age(i) == 2
     ...
